@@ -1,7 +1,7 @@
-
-p{
+.introduction{
   width: 500px
-  font-size: 100px
-  color: #ffd800
-  background-color: #ffd800
+}
+
+.profile{
+  width: 300px;
 }
