@@ -1,7 +1,19 @@
 .introduction{
-  width: 500px
+  width: 500px;
+  float: ;
 }
 
 .profile{
   width: 300px;
 }
+
+body{
+}
+
+.icons{
+  border-bottom: 3px solid #dee7ec
+}
+
+/* .container{
+  float: left;
+} */
