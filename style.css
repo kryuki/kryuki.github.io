@@ -10,8 +10,9 @@
 body{
 }
 
-.icons{
-  border-bottom: 3px solid #dee7ec
+.line{
+  border: 3px solid #dee7ec
+  /* padding: 50px */
 }
 
 /* .container{
