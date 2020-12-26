@@ -1,25 +1,27 @@
-.introduction{
+.intro {
   width: 500px;
-  float: ;
 }
 
-.profile{
+.profile {
   width: 350px;
 }
 
-body{
+body {
   padding-left: 30px;
 }
 
-.line{
+.line {
   border: 3px solid #dee7ec
-  /* padding: 50px */
 }
 
-.fish{
+.fish {
   width: 250px;
 }
 
-.insta{
+.insta {
   width: 1000px;
+}
+
+p {
+  font-size: large;
 }
