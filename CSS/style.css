@@ -7,11 +7,11 @@
 }
 
 body {
-  padding-left: 30px;
+  padding-left: 40px;
 }
 
 .line {
-  border: 3px solid #dee7ec
+  border: 3px solid #000003
 }
 
 .fish {
@@ -23,5 +23,9 @@ body {
 }
 
 p {
-  font-size: large;
+  font-size: 25px;
+}
+
+.title {
+  font-weight: bold;
 }
