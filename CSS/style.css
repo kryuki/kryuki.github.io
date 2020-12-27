@@ -35,11 +35,11 @@ p {
 
 .item {
   border-top-color: #0a0a0c;
-  border-top-width: 1px;
+  border-top-width: 2px;
   border-top-style: dotted;
   padding-top: 10px;
 }
 
-#firstItem {
+h1 + .item {
   border-top: none; 
 }
