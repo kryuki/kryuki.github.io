@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <title>Ryuki Kobayashi</title>
   <link rel="stylesheet" href="CSS/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,10 +32,10 @@
   <p>Wearing <a href="https://www.gotouchvr.com/">Go Touch VR</a>, a haptic device for virtual reality</p>
 
   <div class="icons">
-    <a href="https://github.com/kryuki"><img src="./icons/gh.png" width="50" height="50"></a>
-    <a href="https://www.linkedin.com/in/kobayashiryuki/"><img src="./icons/li.png" width="50" height="50"></a>
-    <a href="https://twitter.com/bayashiko_r"><img src="./icons/tw.png" width="50" height="50"></a>
-    <a href="https://www.facebook.com/vayashiko/"><img src="./icons/fb.png" width="50" height="50"></a>
+    <a href="https://github.com/kryuki"><img class="icon" src="./icons/gh.png"></a>
+    <a href="https://www.linkedin.com/in/kobayashiryuki/"><img class="icon" src="./icons/li.png"></a>
+    <a href="https://twitter.com/bayashiko_r"><img class="icon" src="./icons/tw.png"></a>
+    <a href="https://www.facebook.com/vayashiko/"><img class="icon" src="./icons/fb.png"></a>
   </div>
 
   <br>
@@ -43,92 +45,93 @@
   <h1>Works</h1>
 
   <!-- Kanojo -->
-  <img src="./images/kanojo.jpg">
-  <br>
-  <br>
-  <div class="title">
-    <h2>VR Kanojo</h2>
+  <div class="item" id="firstItem">
+    <img src="./images/kanojo.jpg">
+    <br>
+    <br>
+    <div class="title">
+      <h2>VR Kanojo</h2>
+    </div>
+    <a href="https://store.steampowered.com/app/751440/VR_Kanojo__VR/">Steam</a>&ensp;&ensp;<a
+      href="https://zhuanlan.zhihu.com/p/38156642">Interview</a>(Chinese)&ensp;&ensp;<a
+      href="https://news.livedoor.com/article/detail/14390908/">Interview</a>(Japanese)
+    <p>Implemented a localization system utilizing Google Sheet and CSV files; utilized AssetBundle to save memory</p>
+    <p>Ranked in Top 12 world sales of VR game on Steam in 2018 and 2019.</p>
   </div>
-  <a href="https://store.steampowered.com/app/751440/VR_Kanojo__VR/">Steam</a>&ensp;&ensp;<a
-    href="https://zhuanlan.zhihu.com/p/38156642">Interview</a>(Chinese)&ensp;&ensp;<a
-    href="https://news.livedoor.com/article/detail/14390908/">Interview</a>(Japanese)
-  <p>Implemented a localization system utilizing Google Sheet and CSV files; utilized AssetBundle to save memory</p>
-  <p>Ranked in Top 12 world sales of VR game on Steam in 2018 and 2019.</p>
-  <br>
-  <br>
 
   <!-- play catch -->
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/gMlOxZ8FkAE" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-  <p>
-  <p>
-  <div class="title">
-    <h2>Play Catch (VR Kanojo series)</h2>
+  <div class="item">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gMlOxZ8FkAE" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <p>
+    <p>
+    <div class="title">
+      <h2>Play Catch (VR Kanojo series)</h2>
+    </div>
+    <a href="https://store.steampowered.com/app/658360/SUMMER_VACATION/">Steam</a> (not released yet)
+    <p>Constructed an object inertia system in C# to help in-game character to predict ball trajectory; utilized linear
+      algebra</p>
   </div>
-  <a href="https://store.steampowered.com/app/658360/SUMMER_VACATION/">Steam</a> (not released yet)
-  <p>Constructed an object inertia system in C# to help in-game character to predict ball trajectory; utilized linear
-    algebra</p>
-  <br>
-  <br>
 
   <!-- tsuntsun -->
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Z9JLwNRKHkg" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-  <p>
-  <p>
-  <div class="title">
-    <h2>TsunTsunVR</h2>
+  <div class="item">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z9JLwNRKHkg" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <p>
+    <p>
+    <div class="title">
+      <h2>TsunTsunVR</h2>
+    </div>
+    <a href="https://store.steampowered.com/app/867090/VR__TSUNTSUN_VR/">Steam</a>&ensp;&ensp;<a
+      href="http://panora.tokyo/70394/">Press Release</a>(Japanese)
+    <p>Transmitted haptic feedback from virtual character by bluetooth operating with bHaptics. More than 5,000
+      downloads.
+    </p>
   </div>
-  <a href="https://store.steampowered.com/app/867090/VR__TSUNTSUN_VR/">Steam</a>&ensp;&ensp;<a
-    href="http://panora.tokyo/70394/">Press Release</a>(Japanese)
-  <p>Transmitted haptic feedback from virtual character by bluetooth operating with bHaptics. More than 5,000 downloads.
-  </p>
-  <br>
-  <br>
 
   <!-- fish eye -->
-  <img class="fish" src="./images/fish.jpeg"> =>
-  <img src="./images/panorama.gif">
-  <p>
-  <p>
-  <div class="title">
-    <h2>Panorama Player</h2>
+  <div class="item">
+    <img class="fish" src="./images/fish.jpeg"> =>
+    <img src="./images/panorama.gif">
+    <p>
+    <p>
+    <div class="title">
+      <h2>Panorama Player</h2>
+    </div>
+    <a href="https://github.com/kryuki/360PanoramaPlayer">Github</a>
+    <p>Designed a real-time converter for dual-fisheye camera to virtual reality view with Unity for the video industry.
+    </p>
+    <p>Mapped each pixel of image captured by the camera into dynamically created mesh, rendered in real time. Used a
+      video capture board to promote compatibility with THETA S by WebCamTexture.</p>
   </div>
-  <a href="https://github.com/kryuki/360PanoramaPlayer">Github</a>
-  <p>Designed a real-time converter for dual-fisheye camera to virtual reality view with Unity for the video industry.
-  </p>
-  <p>Mapped each pixel of image captured by the camera into dynamically created mesh, rendered in real time. Used a
-    video capture board to promote compatibility with THETA S by WebCamTexture.</p>
-  <br>
-  <br>
 
   <!-- sasuke -->
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Vba0jbxyvHQ" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-  <p>
-  <p>
-  <div class="title">
-    <h2>Sasuke VR</h2>
+  <div class="item">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Vba0jbxyvHQ" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <p>
+    <p>
+    <div class="title">
+      <h2>Sasuke VR</h2>
+    </div>
+    <a href="https://github.com/kryuki/Sasuke">Github</a>
+    <p>Developed for HTC Vive with Unity for Sasuke(TV sport show in Japan) players, deploying hand tracking with Leap
+      Motion. Implemented also for standalone devices (Mirage Solo, VIVE Focus)</p>
   </div>
-  <a href="https://github.com/kryuki/Sasuke">Github</a>
-  <p>Developed for HTC Vive with Unity for Sasuke(TV sport show in Japan) players, deploying hand tracking with Leap
-    Motion. Implemented also for standalone devices (Mirage Solo, VIVE Focus)</p>
-  <br>
-  <br>
 
   <!-- dance -->
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Y5yhzyoviEo" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-  <div class="title">
-    <h2>Dance Practice VR</h2>
+  <div class="item">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y5yhzyoviEo" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <div class="title">
+      <h2>Dance Practice VR</h2>
+    </div>
+    <p>Practice dancing with AI chan, who is a famous Vtuber in Japan.</p>
   </div>
-  <p>Practice dancing with AI chan, who is a famous Vtuber in Japan.</p>
-  <br>
-  <br>
 
   <!-- Awards -->
   <p></p>
@@ -137,33 +140,31 @@
   <h1>Awards</h1>
 
   <!-- Kendama -->
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/iqAfKyD0Hs8" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-  <div class="title">
-    <h2>VR Kendama</h2>
+  <div class="item" id="firstItem">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iqAfKyD0Hs8" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <div class="title">
+      <h2>VR Kendama</h2>
+    </div>
+    <h2> (<b>Glee award</b> at <a href="https://gree-xr-hackathon.com/">Lunar VR Sports Hackathon</a>
+      in
+      2018)</h2>
+    <p>VR training simulator of Kendama (Japanese traditional toy) in a low gravity environment.</p>
   </div>
-  <h2> (<b>Glee award</b> at <a href="https://gree-xr-hackathon.com/">Lunar VR Sports Hackathon</a>
-    in
-    2018)</h2>
-  <p>VR training simulator of Kendama (Japanese traditional toy) in a low gravity environment.</p>
-  <br>
-  <p></p>
-  <p></p>
 
   <!-- shiki glass -->
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/zLHKk2iF46c" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-  <div class="title">
-    <h2>SHIKI Glass</h2>
+  <div class="item">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zLHKk2iF46c" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <div class="title">
+      <h2>SHIKI Glass</h2>
+    </div>
+    <h2> (<b>Tsukumo Award</b> at <a href="https://lookingglass.connpass.com/event/119022/">Looking
+        Glass Hackathon</a> in 2019)</h2>
+    <p>Holographic viewer for enjoying Japan’s four beautiful seasons; released in Looking Glass Library.</p>
   </div>
-  <h2> (<b>Tsukumo Award</b> at <a href="https://lookingglass.connpass.com/event/119022/">Looking
-      Glass Hackathon</a> in 2019)</h2>
-  <p>Holographic viewer for enjoying Japan’s four beautiful seasons; released in Looking Glass Library.</p>
-  <br>
-  <p></p>
-  <p></p>
 
 </body>
 

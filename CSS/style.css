@@ -7,7 +7,9 @@
 }
 
 body {
-  padding-left: 40px;
+  width: 60%;
+  margin: auto;
+  font-family: Roboto, sans-serif;
 }
 
 .line {
@@ -24,4 +26,20 @@ p {
 
 .title {
   font-weight: bold;
+}
+
+.icon {
+  width: 55px;
+  padding-right: 5px;
+}
+
+.item {
+  border-top-color: #0a0a0c;
+  border-top-width: 1px;
+  border-top-style: dotted;
+  padding-top: 10px;
+}
+
+#firstItem {
+  border-top: none; 
 }
