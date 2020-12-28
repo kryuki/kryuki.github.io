@@ -67,9 +67,6 @@ body {
 }
 
 
-.line {
-  border: 3px solid #008085
-}
 
 .fish {
   width: 250px;
@@ -99,10 +96,6 @@ h1 + .item {
 
 .award-explain {
   font-size: 24px;
-}
-
-.underline {
-  text-decoration: underline;
 }
 
 .media {
